@@ -1,0 +1,722 @@
+{
+  "prngSamples": {
+    "0": [
+      0.26642920868471265,
+      0.0003297457005828619,
+      0.2232720274478197,
+      0.1462021479383111,
+      0.46732782293111086,
+      0.5450490827206522,
+      0.6152513844426721,
+      0.6489853798411787,
+      0.45600721263326705,
+      0.581218967679888,
+      0.24625753005966544,
+      0.09785169479437172,
+      0.9034309543203562,
+      0.40820372267626226,
+      0.7202955442480743,
+      0.6599067240022123,
+      0.8058585098478943,
+      0.6261914535425603,
+      0.5696913106366992,
+      0.12123633874580264
+    ],
+    "42": [
+      0.6011037519201636,
+      0.44829055899754167,
+      0.8524657934904099,
+      0.6697340414393693,
+      0.17481389874592423,
+      0.5265925421845168,
+      0.2732279943302274,
+      0.6247446539346129,
+      0.8654746483080089,
+      0.4723170551005751,
+      0.24992373422719538,
+      0.8820588334929198,
+      0.7457375649828464,
+      0.3070015134289861,
+      0.19725383794866502,
+      0.5007294877432287,
+      0.6866120179183781,
+      0.6106208984274417,
+      0.003842951962724328,
+      0.47078192373737693
+    ],
+    "12345": [
+      0.9797282677609473,
+      0.3067522644996643,
+      0.484205421525985,
+      0.817934412509203,
+      0.5094283693470061,
+      0.34747186047025025,
+      0.07375754183158278,
+      0.7663964673411101,
+      0.9968264393974096,
+      0.8250224851071835,
+      0.4599348735064268,
+      0.9458441860042512,
+      0.8906230411957949,
+      0.9693436855450273,
+      0.6276605280581862,
+      0.24882567464374006,
+      0.47334283916279674,
+      0.30504514812491834,
+      0.772419034736231,
+      0.8651748767588288
+    ]
+  },
+  "hashVectors": {
+    "": 2166136261,
+    "a": 3826002220,
+    "abc": 440920331,
+    "velvet-stakes": 2990948105,
+    "{\"bankroll\":10000}": 2617183095
+  },
+  "sessions": [
+    {
+      "seed": 1,
+      "final": {
+        "currentLadder": 0,
+        "currentIndex": 1,
+        "pnl": 500,
+        "rounds": 335,
+        "totalWagered": 5720,
+        "maxStake": 170,
+        "maxDrawdown": 265,
+        "peakPnl": 500,
+        "ladderTouches": {
+          "0": 335,
+          "1": 0,
+          "2": 0
+        },
+        "topTouches": 0,
+        "stopped": true,
+        "stopReason": "profit_target",
+        "inRecovery": false,
+        "recoveryTargetPnl": 0,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 2,
+      "final": {
+        "currentLadder": 0,
+        "currentIndex": 1,
+        "pnl": 500,
+        "rounds": 309,
+        "totalWagered": 3970,
+        "maxStake": 105,
+        "maxDrawdown": 160,
+        "peakPnl": 500,
+        "ladderTouches": {
+          "0": 309,
+          "1": 0,
+          "2": 0
+        },
+        "topTouches": 0,
+        "stopped": true,
+        "stopReason": "profit_target",
+        "inRecovery": false,
+        "recoveryTargetPnl": 0,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 3,
+      "final": {
+        "currentLadder": 1,
+        "currentIndex": 4,
+        "pnl": -1285,
+        "rounds": 88,
+        "totalWagered": 4895,
+        "maxStake": 400,
+        "maxDrawdown": 1360,
+        "peakPnl": 75,
+        "ladderTouches": {
+          "0": 63,
+          "1": 25,
+          "2": 0
+        },
+        "topTouches": 1,
+        "stopped": true,
+        "stopReason": "stop_loss",
+        "inRecovery": true,
+        "recoveryTargetPnl": -317.5,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 4,
+      "final": {
+        "currentLadder": 1,
+        "currentIndex": 4,
+        "pnl": -1375,
+        "rounds": 209,
+        "totalWagered": 4705,
+        "maxStake": 400,
+        "maxDrawdown": 1610,
+        "peakPnl": 235,
+        "ladderTouches": {
+          "0": 202,
+          "1": 7,
+          "2": 0
+        },
+        "topTouches": 1,
+        "stopped": true,
+        "stopReason": "stop_loss",
+        "inRecovery": true,
+        "recoveryTargetPnl": -237.5,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 5,
+      "final": {
+        "currentLadder": 0,
+        "currentIndex": 0,
+        "pnl": 500,
+        "rounds": 297,
+        "totalWagered": 4600,
+        "maxStake": 170,
+        "maxDrawdown": 265,
+        "peakPnl": 500,
+        "ladderTouches": {
+          "0": 297,
+          "1": 0,
+          "2": 0
+        },
+        "topTouches": 0,
+        "stopped": true,
+        "stopReason": "profit_target",
+        "inRecovery": false,
+        "recoveryTargetPnl": 0,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 6,
+      "final": {
+        "currentLadder": 0,
+        "currentIndex": 0,
+        "pnl": 500,
+        "rounds": 332,
+        "totalWagered": 6060,
+        "maxStake": 275,
+        "maxDrawdown": 435,
+        "peakPnl": 500,
+        "ladderTouches": {
+          "0": 332,
+          "1": 0,
+          "2": 0
+        },
+        "topTouches": 0,
+        "stopped": true,
+        "stopReason": "profit_target",
+        "inRecovery": false,
+        "recoveryTargetPnl": 0,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 7,
+      "final": {
+        "currentLadder": 1,
+        "currentIndex": 3,
+        "pnl": -1135,
+        "rounds": 76,
+        "totalWagered": 2735,
+        "maxStake": 275,
+        "maxDrawdown": 1260,
+        "peakPnl": 125,
+        "ladderTouches": {
+          "0": 72,
+          "1": 4,
+          "2": 0
+        },
+        "topTouches": 1,
+        "stopped": true,
+        "stopReason": "stop_loss",
+        "inRecovery": true,
+        "recoveryTargetPnl": -292.5,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 8,
+      "final": {
+        "currentLadder": 0,
+        "currentIndex": 1,
+        "pnl": 500,
+        "rounds": 298,
+        "totalWagered": 4550,
+        "maxStake": 105,
+        "maxDrawdown": 160,
+        "peakPnl": 500,
+        "ladderTouches": {
+          "0": 298,
+          "1": 0,
+          "2": 0
+        },
+        "topTouches": 0,
+        "stopped": true,
+        "stopReason": "profit_target",
+        "inRecovery": false,
+        "recoveryTargetPnl": 0,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 9,
+      "final": {
+        "currentLadder": 1,
+        "currentIndex": 3,
+        "pnl": -1205,
+        "rounds": 68,
+        "totalWagered": 2885,
+        "maxStake": 275,
+        "maxDrawdown": 1260,
+        "peakPnl": 55,
+        "ladderTouches": {
+          "0": 58,
+          "1": 10,
+          "2": 0
+        },
+        "topTouches": 1,
+        "stopped": true,
+        "stopReason": "stop_loss",
+        "inRecovery": true,
+        "recoveryTargetPnl": -327.5,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 10,
+      "final": {
+        "currentLadder": 0,
+        "currentIndex": 0,
+        "pnl": 500,
+        "rounds": 317,
+        "totalWagered": 4620,
+        "maxStake": 275,
+        "maxDrawdown": 435,
+        "peakPnl": 500,
+        "ladderTouches": {
+          "0": 317,
+          "1": 0,
+          "2": 0
+        },
+        "topTouches": 0,
+        "stopped": true,
+        "stopReason": "profit_target",
+        "inRecovery": false,
+        "recoveryTargetPnl": 0,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 11,
+      "final": {
+        "currentLadder": 0,
+        "currentIndex": 0,
+        "pnl": 500,
+        "rounds": 336,
+        "totalWagered": 6940,
+        "maxStake": 275,
+        "maxDrawdown": 435,
+        "peakPnl": 500,
+        "ladderTouches": {
+          "0": 336,
+          "1": 0,
+          "2": 0
+        },
+        "topTouches": 0,
+        "stopped": true,
+        "stopReason": "profit_target",
+        "inRecovery": false,
+        "recoveryTargetPnl": 0,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 12,
+      "final": {
+        "currentLadder": 0,
+        "currentIndex": 0,
+        "pnl": 500,
+        "rounds": 229,
+        "totalWagered": 3030,
+        "maxStake": 170,
+        "maxDrawdown": 265,
+        "peakPnl": 500,
+        "ladderTouches": {
+          "0": 229,
+          "1": 0,
+          "2": 0
+        },
+        "topTouches": 0,
+        "stopped": true,
+        "stopReason": "profit_target",
+        "inRecovery": false,
+        "recoveryTargetPnl": 0,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 13,
+      "final": {
+        "currentLadder": 0,
+        "currentIndex": 1,
+        "pnl": 500,
+        "rounds": 545,
+        "totalWagered": 11470,
+        "maxStake": 275,
+        "maxDrawdown": 760,
+        "peakPnl": 500,
+        "ladderTouches": {
+          "0": 536,
+          "1": 9,
+          "2": 0
+        },
+        "topTouches": 1,
+        "stopped": true,
+        "stopReason": "profit_target",
+        "inRecovery": false,
+        "recoveryTargetPnl": 0,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 14,
+      "final": {
+        "currentLadder": 1,
+        "currentIndex": 4,
+        "pnl": -1385,
+        "rounds": 173,
+        "totalWagered": 4445,
+        "maxStake": 400,
+        "maxDrawdown": 1610,
+        "peakPnl": 225,
+        "ladderTouches": {
+          "0": 164,
+          "1": 9,
+          "2": 0
+        },
+        "topTouches": 1,
+        "stopped": true,
+        "stopReason": "stop_loss",
+        "inRecovery": true,
+        "recoveryTargetPnl": -242.5,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 15,
+      "final": {
+        "currentLadder": 0,
+        "currentIndex": 0,
+        "pnl": 500,
+        "rounds": 649,
+        "totalWagered": 11190,
+        "maxStake": 275,
+        "maxDrawdown": 995,
+        "peakPnl": 500,
+        "ladderTouches": {
+          "0": 642,
+          "1": 7,
+          "2": 0
+        },
+        "topTouches": 1,
+        "stopped": true,
+        "stopReason": "profit_target",
+        "inRecovery": false,
+        "recoveryTargetPnl": 0,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 16,
+      "final": {
+        "currentLadder": 0,
+        "currentIndex": 0,
+        "pnl": 500,
+        "rounds": 678,
+        "totalWagered": 14070,
+        "maxStake": 275,
+        "maxDrawdown": 895,
+        "peakPnl": 500,
+        "ladderTouches": {
+          "0": 670,
+          "1": 8,
+          "2": 0
+        },
+        "topTouches": 1,
+        "stopped": true,
+        "stopReason": "profit_target",
+        "inRecovery": false,
+        "recoveryTargetPnl": 0,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 17,
+      "final": {
+        "currentLadder": 0,
+        "currentIndex": 1,
+        "pnl": 500,
+        "rounds": 285,
+        "totalWagered": 3680,
+        "maxStake": 105,
+        "maxDrawdown": 160,
+        "peakPnl": 500,
+        "ladderTouches": {
+          "0": 285,
+          "1": 0,
+          "2": 0
+        },
+        "topTouches": 0,
+        "stopped": true,
+        "stopReason": "profit_target",
+        "inRecovery": false,
+        "recoveryTargetPnl": 0,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 18,
+      "final": {
+        "currentLadder": 1,
+        "currentIndex": 2,
+        "pnl": -1145,
+        "rounds": 156,
+        "totalWagered": 4325,
+        "maxStake": 275,
+        "maxDrawdown": 1330,
+        "peakPnl": 185,
+        "ladderTouches": {
+          "0": 144,
+          "1": 12,
+          "2": 0
+        },
+        "topTouches": 2,
+        "stopped": true,
+        "stopReason": "stop_loss",
+        "inRecovery": true,
+        "recoveryTargetPnl": -447.5,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 19,
+      "final": {
+        "currentLadder": 0,
+        "currentIndex": 0,
+        "pnl": 500,
+        "rounds": 338,
+        "totalWagered": 5390,
+        "maxStake": 170,
+        "maxDrawdown": 265,
+        "peakPnl": 500,
+        "ladderTouches": {
+          "0": 338,
+          "1": 0,
+          "2": 0
+        },
+        "topTouches": 0,
+        "stopped": true,
+        "stopReason": "profit_target",
+        "inRecovery": false,
+        "recoveryTargetPnl": 0,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 20,
+      "final": {
+        "currentLadder": 1,
+        "currentIndex": 3,
+        "pnl": -1060,
+        "rounds": 210,
+        "totalWagered": 7570,
+        "maxStake": 275,
+        "maxDrawdown": 1195,
+        "peakPnl": 135,
+        "ladderTouches": {
+          "0": 181,
+          "1": 29,
+          "2": 0
+        },
+        "topTouches": 2,
+        "stopped": true,
+        "stopReason": "stop_loss",
+        "inRecovery": true,
+        "recoveryTargetPnl": -405,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 21,
+      "final": {
+        "currentLadder": 1,
+        "currentIndex": 4,
+        "pnl": -1240,
+        "rounds": 196,
+        "totalWagered": 4660,
+        "maxStake": 400,
+        "maxDrawdown": 1560,
+        "peakPnl": 320,
+        "ladderTouches": {
+          "0": 184,
+          "1": 12,
+          "2": 0
+        },
+        "topTouches": 1,
+        "stopped": true,
+        "stopReason": "stop_loss",
+        "inRecovery": true,
+        "recoveryTargetPnl": -195,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 22,
+      "final": {
+        "currentLadder": 1,
+        "currentIndex": 2,
+        "pnl": -1035,
+        "rounds": 927,
+        "totalWagered": 22175,
+        "maxStake": 400,
+        "maxDrawdown": 1480,
+        "peakPnl": 445,
+        "ladderTouches": {
+          "0": 888,
+          "1": 39,
+          "2": 0
+        },
+        "topTouches": 4,
+        "stopped": true,
+        "stopReason": "stop_loss",
+        "inRecovery": true,
+        "recoveryTargetPnl": -367.5,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 23,
+      "final": {
+        "currentLadder": 1,
+        "currentIndex": 3,
+        "pnl": -1000,
+        "rounds": 57,
+        "totalWagered": 3170,
+        "maxStake": 275,
+        "maxDrawdown": 1060,
+        "peakPnl": 60,
+        "ladderTouches": {
+          "0": 44,
+          "1": 13,
+          "2": 0
+        },
+        "topTouches": 1,
+        "stopped": true,
+        "stopReason": "stop_loss",
+        "inRecovery": true,
+        "recoveryTargetPnl": -325,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 24,
+      "final": {
+        "currentLadder": 1,
+        "currentIndex": 2,
+        "pnl": -1030,
+        "rounds": 684,
+        "totalWagered": 12280,
+        "maxStake": 275,
+        "maxDrawdown": 1500,
+        "peakPnl": 470,
+        "ladderTouches": {
+          "0": 666,
+          "1": 18,
+          "2": 0
+        },
+        "topTouches": 3,
+        "stopped": true,
+        "stopReason": "stop_loss",
+        "inRecovery": true,
+        "recoveryTargetPnl": -390,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    },
+    {
+      "seed": 25,
+      "final": {
+        "currentLadder": 0,
+        "currentIndex": 1,
+        "pnl": 500,
+        "rounds": 272,
+        "totalWagered": 4000,
+        "maxStake": 170,
+        "maxDrawdown": 265,
+        "peakPnl": 500,
+        "ladderTouches": {
+          "0": 272,
+          "1": 0,
+          "2": 0
+        },
+        "topTouches": 0,
+        "stopped": true,
+        "stopReason": "profit_target",
+        "inRecovery": false,
+        "recoveryTargetPnl": 0,
+        "awaitingDecision": false,
+        "pendingDecisionType": null
+      }
+    }
+  ],
+  "monteCarlo": {
+    "nTrials": 2500,
+    "probHitTarget": 0.6356,
+    "probHitStopLoss": 0.3644,
+    "probHitMaxRounds": 0,
+    "probHitTableLimit": 0,
+    "probBankrollExhausted": 0,
+    "meanPnl": -101.616,
+    "medianPnl": 500,
+    "pnlP5": -1315,
+    "pnlP95": 500,
+    "medianRounds": 312,
+    "medianRoundsToTarget": 324,
+    "meanMaxDrawdown": 793.45,
+    "medianMaxDrawdown": 760,
+    "meanMaxStake": 256.422,
+    "probReachedBridging": 0.5444
+  }
+}

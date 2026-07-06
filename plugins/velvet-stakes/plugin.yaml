@@ -1,0 +1,10 @@
+name: velvet-stakes
+version: 1.0.0
+description: "Track Velvet Stakes ladder-betting sessions over chat: text win/loss to record bets and get the next stake, answer ladder-top bridging decisions (carry/write/stop), and run a Monte Carlo 'odds' check mid-session. Strict deterministic triggers — no LLM in the hot path. Completed sessions are saved as app-compatible SessionResult JSON."
+author: "synzael"
+provides_hooks:
+  - pre_gateway_dispatch
+requires_env:
+  - name: VELVET_STAKES_TRIALS
+    description: "Monte Carlo trial count for the 'odds' command (default 2000)"
+    required: false
